@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Shamim ❤️</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 35px 15px;
+        min-height: 100vh;
+      }
+
+      .container {
+        background: white;
+        color: #e84375;
+        padding: 30px 22px;
+        border-radius: 22px;
+        max-width: 420px;
+        margin: auto;
+        box-shadow: 0 8px 25px #0003;
+      }
+
+      .heart {
+        font-size: 60px;
+        animation: beat 1s infinite;
+      }
+
+      @keyframes beat {
+        50% {
+          transform: scale(1.2);
+        }
+      }
+
+      h2 {
+        color: #ff4f81;
+      }
+
+      button {
+        background: #ff4f81;
+        color: white;
+        border: none;
+        padding: 14px 25px;
+        border-radius: 25px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #e84375;
+      }
+
+      #message {
+        display: none;
+        margin-top: 25px;
+        line-height: 1.8;
+        animation: appear 1.5s;
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .signature {
+        margin-top: 25px;
+        font-weight: bold;
+        color: #d6336c;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heart">❤️</div>
+
+      <h2>Dear Shamim 😊</h2>
+
+      <p>There is something special I would like you to know.</p>
+
+      <button onclick="showMessage()">Read My Appreciation 💌</button>
+
+      <div id="message">
+        <h3>To My Best Friend, Shamim ❤️</h3>
+
+        <p>
+          Sometimes words are not enough to express how grateful I am to have
+          someone like you in my life.
+        </p>
+
+        <p>
+          Thank you for being such an amazing best friend. Thank you for your
+          kindness, your support, your understanding and the beautiful moments
+          we have shared.
+        </p>
+
+        <p>
+          Your friendship has brought happiness and meaning into my life.
+          Through good moments and difficult days, I appreciate having you
+          around.
+        </p>
+
+        <p>
+          I may not always say it, but I truly value you and the friendship we
+          share. May Allah bless you, protect you and grant you endless
+          happiness.
+        </p>
+
+        <p>
+          Never forget that you are appreciated more than words can explain. ❤️
+        </p>
+
+        <div class="signature">
+          Stuart is grateful.<br />
+          Alhamdulillah ❤️
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function showMessage() {
+        document.getElementById("message").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
